@@ -1,0 +1,60 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+body{
+    background-color: rgb(27,27,27);
+}
+.card{
+    background-color: white;
+    width: 220px;
+    margin: 10px;
+    border-radius: 15px  ;
+}
+.card:hover{
+    box-shadow: 3px 5px 5px white;
+}
+
+.img{
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+ .card p{
+     line-height: 2;
+     text-align: justify;
+     font-size: 16px;
+ }
+
+ h2,p{
+     padding: 10px;
+ }
+ h2{
+     text-align: center;
+     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+ .card a{
+     background-color: black;
+     color: white;
+     padding: 15px 20px;
+     display: block;
+     text-align: center;
+     text-decoration: none;
+     margin: 20px 50px;
+     /* box-shadow: 3px 5px 5px gray; */
+ }
+ a:hover{
+     color: aquamarine;
+     background-color: darkred;
+     box-shadow: 3px 5px 5px white;
+ }
+ .card:hover{
+     background-color: rgb(62, 62, 62);
+     color:white ;
+     cursor: pointer;
+     transform: scale(1.03);
+     transition: all 1s ease;
+ }
